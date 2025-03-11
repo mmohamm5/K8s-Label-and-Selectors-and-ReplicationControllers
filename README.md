@@ -90,3 +90,5 @@ The ReplicaSet detects that the current state is no longer matching the desired 
 ![photos](asset/5.PNG)
 
 ReplicaSets can be used independently as Pod controllers but they only offer a limited set of features. A set of complementary features are provided by Deployments, the recommended controllers for the orchestration of Pods. Deployments manage the creation, deletion, and updates of Pods. A Deployment automatically creates a ReplicaSet, which then creates a Pod. There is no need to manage ReplicaSets and Pods separately, the Deployment will manage them on our behalf.
+
+To see Blog: https://hashnode.com/post/cm7x5opep000c09jrahl572sd
