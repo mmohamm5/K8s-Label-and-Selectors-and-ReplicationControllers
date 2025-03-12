@@ -1,3 +1,7 @@
+#!/bin/bash
+#Note: Don't this script. Run one by one commands.
+
+
 $ kubectl create -f redis-rs.yaml
 $ kubectl apply -f redis-rs.yaml
 $ kubectl get replicasets
